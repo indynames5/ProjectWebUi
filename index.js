@@ -34,7 +34,7 @@ $(function(){
     'http://issue247.com/wp-content/uploads/2018/03/%E0%B8%97%E0%B8%B3%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B9%82%E0%B8%95%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%88.jpg',
     'https://i.ytimg.com/vi/56clWBWx6Oo/maxresdefault.jpg',
     'https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.0-9/33377318_1895360590547582_4775460822300229632_n.jpg?_nc_cat=101&_nc_eui2=AeFZnFkKR6AoHtg4VKiadsSsnWLI5bNt-ExOptjkTZVegHagx-xT7DfGGpCleyG0yRWv6UUjFIFburOBos-0u2vxmPsj884TFsGpgQ9FdGWVMA&_nc_ht=scontent.fbkk12-1.fna&oh=42153defdf8e53ecc0d13adf5e0992c8&oe=5D255BC2',
-    'https://img.tsood.com/userfiles/images/12(25).jpg'];
+    'https://f.ptcdn.info/902/049/000/omxwpj95nZ4wnfU1uEX-o.jpg'];
     var comment =['มอออออออออออออออออออออออออ',
     'วันนี้กินไก่บนบกหรือในน้ำดีน้าาาาา',
     'ไม่ได้ตั้งใหญ่ตัวใจใหญ่แต่มันใหญ่เอง TT',
