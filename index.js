@@ -70,7 +70,7 @@ $(function(){
         num2=1;
     }
     else if(zodiac==0&&num3==0){
-        alert("ศึกษาความรู้ทั่วไปบ้างนะ");
+        alert("ราศีงายยยยยย");
         num3=1;
     }
     if(name!=""&&name!="<!--"){
