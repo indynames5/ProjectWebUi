@@ -29,6 +29,7 @@ $(function(){
     'https://mpics.mgronline.com/pics/Images/561000003085001.JPEG',
     'https://f.ptcdn.info/100/057/000/p783rmiumvM9z8SOj6z-o.jpg',
     'https://f.ptcdn.info/719/035/000/1442951564-Iphone2362-o.jpg'];
+    var num1=0,num2=0,num3=0;
     
     $('#go').click(function(){
     var name = $('#you').val();
@@ -39,16 +40,19 @@ $(function(){
     var myImage = document.getElementById('img');
     myImage.setAttribute("src",pic[rdm]);
     console.log(name);
-    var num1=0,num2=0,num3=0;
+    
     
     if(day==0&&zodiac==0&&num1==0){
-        alert("ต้องเป็นคนยังไงกรอกชื่อกับวันเกิดหน่อยเหอะ");
+        alert("ต้องเป็นคนยังไงกรอกข้อมูลก็ไม่ครบ");
+        num1=1;
     }
     else if(day==0&&num2==0){
         alert("จำวันเกิดไม่ได้สิเหรอ");
+        num2=1;
     }
     else if(zodiac==0&&num3==0){
         alert("ศึกษาความรู้ทั่วไปบ้างนะ");
+        num3=1;
     }
     if(name!=""&&name!="<!--"){
         $("#input").hide();
@@ -67,6 +71,7 @@ $(function(){
 
     });    
     $('#goAgain').click(function(){
+        num1=0,num2=0,num3=0;
         $("#be").empty();
         $("#name").empty();
         $("#input").fadeIn(3000);
