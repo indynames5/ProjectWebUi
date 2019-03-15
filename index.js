@@ -47,7 +47,7 @@ $(function(){
         num1=1;
     }
     else if(day==0&&num2==0){
-        alert("จำวันเกิดไม่ได้สิเหรอ");
+        alert("จำวันเกิดไม่ได้เหรอ");
         num2=1;
     }
     else if(zodiac==0&&num3==0){
