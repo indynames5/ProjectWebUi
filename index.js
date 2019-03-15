@@ -16,7 +16,9 @@ $(function(){
     'สิงโต',
     'บิน ลาดิน',
     'ผีเสื้อสมุทร',
-    'พระถังซัมจั๋ง'];
+    'พระถังซัมจั๋ง',
+    'ปลาทอง',
+    'ผู้พันแซนเดอร์ส',];
     var pic = ['https://i.ytimg.com/vi/1fCrqWIQ19A/maxresdefault.jpg',
     'https://pbs.twimg.com/profile_images/978657978839543809/LTswaEUr_400x400.jpg',
     'https://www.sarakadee.com/wp-content/uploads/third-elephant01.jpg',
@@ -34,10 +36,12 @@ $(function(){
     'http://issue247.com/wp-content/uploads/2018/03/%E0%B8%97%E0%B8%B3%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B9%82%E0%B8%95%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%88.jpg',
     'https://i.ytimg.com/vi/56clWBWx6Oo/maxresdefault.jpg',
     'https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.0-9/33377318_1895360590547582_4775460822300229632_n.jpg?_nc_cat=101&_nc_eui2=AeFZnFkKR6AoHtg4VKiadsSsnWLI5bNt-ExOptjkTZVegHagx-xT7DfGGpCleyG0yRWv6UUjFIFburOBos-0u2vxmPsj884TFsGpgQ9FdGWVMA&_nc_ht=scontent.fbkk12-1.fna&oh=42153defdf8e53ecc0d13adf5e0992c8&oe=5D255BC2',
-    'https://f.ptcdn.info/902/049/000/omxwpj95nZ4wnfU1uEX-o.jpg'];
+    'https://f.ptcdn.info/902/049/000/omxwpj95nZ4wnfU1uEX-o.jpg',
+    'http://goldfishth.com/wp-content/uploads/2014/05/%E0%B8%AB%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%9A%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%87.jpg'
+    'https://teen.mthai.com/app/uploads/2012/10/43u17-1.jpg',         ];
     var comment =['มอออออออออออออออออออออออออ',
     'วันนี้กินไก่บนบกหรือในน้ำดีน้าาาาา',
-    'ไม่ได้ตั้งใหญ่ตัวใจใหญ่แต่มันใหญ่เอง TT',
+    'ไม่ได้ตั้งใจใหญ่แต่มันใหญ่เอง TT',
     'มันเดินอุ้ยอ้ายตะลันล๊า ตะลั้นลา',
     'นก นก นก นก นก นก นก',          
     'ตายแน่ๆ',
@@ -52,7 +56,9 @@ $(function(){
     'พ่อบ้านใจกล้า',
     'Allorhu Akbar',
     'ฟังเพลงจนหลับไม่ตื่นอีกเลย',
-    'ขมพูทวีปใก้ลเหมือนปากซอย'];
+    'ขมพูทวีปใก้ลเหมือนปากซอย',
+    'บุ๋ง บุ๋ง บุ๋ง',
+    'ไก่มั้ยครับไก่ ซื้อมั้ยครับจะกลับแล้วไก่'];
     
     
     
