@@ -37,8 +37,8 @@ $(function(){
     'https://i.ytimg.com/vi/56clWBWx6Oo/maxresdefault.jpg',
     'https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.0-9/33377318_1895360590547582_4775460822300229632_n.jpg?_nc_cat=101&_nc_eui2=AeFZnFkKR6AoHtg4VKiadsSsnWLI5bNt-ExOptjkTZVegHagx-xT7DfGGpCleyG0yRWv6UUjFIFburOBos-0u2vxmPsj884TFsGpgQ9FdGWVMA&_nc_ht=scontent.fbkk12-1.fna&oh=42153defdf8e53ecc0d13adf5e0992c8&oe=5D255BC2',
     'https://f.ptcdn.info/902/049/000/omxwpj95nZ4wnfU1uEX-o.jpg',
-    'http://goldfishth.com/wp-content/uploads/2014/05/%E0%B8%AB%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%9A%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%87.jpg'
-    'https://teen.mthai.com/app/uploads/2012/10/43u17-1.jpg',         ];
+    'http://goldfishth.com/wp-content/uploads/2014/05/%E0%B8%AB%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A3%E0%B8%B5%E0%B8%9A%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%97%E0%B8%AD%E0%B8%87.jpg',
+    'https://teen.mthai.com/app/uploads/2012/10/43u17-1.jpg'     ];
     var comment =['มอออออออออออออออออออออออออ',
     'วันนี้กินไก่บนบกหรือในน้ำดีน้าาาาา',
     'ไม่ได้ตั้งใจใหญ่แต่มันใหญ่เอง TT',
