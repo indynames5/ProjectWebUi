@@ -30,15 +30,14 @@ $(function(){
     'https://f.ptcdn.info/100/057/000/p783rmiumvM9z8SOj6z-o.jpg',
     'https://f.ptcdn.info/719/035/000/1442951564-Iphone2362-o.jpg',
     'http://issue247.com/wp-content/uploads/2018/03/%E0%B8%97%E0%B8%B3%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AB%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B9%82%E0%B8%95%E0%B8%88%E0%B8%B0%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%83%E0%B8%AB%E0%B9%89%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%9A%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%88.jpg',
-    'https://f.ptcdn.info/719/035/000/1442951564-Iphone2362-o.jpg',];
+    'https://i.ytimg.com/vi/56clWBWx6Oo/maxresdefault.jpg',];
     var comment =['มอออออออออออออออออออออออออ',
     'วันนี้กินไก่บนบกหรือในน้ำดีน้าาาาา',
     'ไม่ได้ตั้งใหญ่ตัวใจใหญ่แต่มันใหญ่เอง TT',
     'มันเดินอุ้ยอ้ายตะลันล๊า ตะลั้นลา',
     'นก นก นก นก นก นก นก',          
     'ตายแน่ๆ',
-    'ทรัมป์',
-    'บังโตถูกใจสิ่งนี้',
+    'บังโตถูกใจสิ่งนี้ "บังยังไม่ตาย "',
     'ลุงเริงไง',
     'เมี๊ยวววววววววววว',
     'โฮ่ง โฮ่ง โฮ่ง',
@@ -60,6 +59,7 @@ $(function(){
     console.log(name);
     var rdm = random(name); 
     var myImage = document.getElementById('img');
+    myImage.setAttribute("alt",word[rdm]);
     myImage.setAttribute("src",pic[rdm]);
     console.log(name);
     
@@ -83,8 +83,10 @@ $(function(){
         $("#name").append(name + '<br>');
         $("#name").fadeIn(4000);
         $("#be").append("คุณคือ " + word[rdm] + '<br>');
+        $("#more").append("(  " + comment[rdm] +"  )" + '<br>');
+        $("#more").fadeIn(6000);
         $("#be").fadeIn(5000);
-        $("#goAgain").fadeIn(4000);
+        $("#goAgain").fadeIn(6000);
     }else if(name=='<!--'){
         alert("ตั้งชื่อดีๆโหน่ย");
     }else{
@@ -96,12 +98,14 @@ $(function(){
         num1=0,num2=0,num3=0;
         $("#be").empty();
         $("#name").empty();
+        $("#more").empty();
         $("#input").fadeIn(3000);
         $('#img').hide();
         $("#name").hide();
         $("#be").hide();
         $("#goAgain").hide();
         $("#go").fadeIn(3000);
+        $("#more").hide();
         $("#you").val("");
         
     });  
@@ -109,7 +113,25 @@ $(function(){
     function random(name) {
         return Math.floor(Math.random() * pic.length);
     }
-      
+    
+
+    var modal = document.getElementById('myModal');
+
+
+var img = document.getElementById('img');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() { 
+  modal.style.display = "none";
+}
     
   
 });             
